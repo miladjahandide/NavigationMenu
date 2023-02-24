@@ -145,7 +145,8 @@
                 Margin="5,0"
                 Background="Transparent"
                 BorderThickness="0"
-                Command="{Binding GoToNextPageCommand}">
+                Command="{Binding GoToNextPageCommand}"
+                Focusable="False">
                 <iconPacks:MaterialDesign Kind="ChevronRight" />
             </Button>
             <Button
